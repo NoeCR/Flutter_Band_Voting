@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import '../models/band.model.dart';
 
 class HomePage extends StatefulWidget {
+  final String pageName = 'home';
   @override
   _HomePageState createState() => _HomePageState();
 }
